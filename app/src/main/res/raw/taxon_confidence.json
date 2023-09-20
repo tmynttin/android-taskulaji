@@ -1,0 +1,29 @@
+[
+  {
+    "enumeration": "SURE",
+    "property": "MY.taxonConfidenceSure",
+    "label": {
+      "fi": "varma",
+      "en": "sure",
+      "sv": "säker"
+    }
+  },
+  {
+    "enumeration": "UNSURE",
+    "property": "MY.taxonConfidenceUnsure",
+    "label": {
+      "fi": "epävarma",
+      "en": "unsure",
+      "sv": "osäker"
+    }
+  },
+  {
+    "enumeration": "SUBSPECIES_UNSURE",
+    "property": "MY.taxonConfidenceSubspeciesUnsure",
+    "label": {
+      "fi": "alalaji epävarma",
+      "en": "subspecies unsure",
+      "sv": "underart osäker"
+    }
+  }
+]

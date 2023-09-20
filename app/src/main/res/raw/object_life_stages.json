@@ -1,0 +1,23 @@
+{
+  "MY.lifeStageEgg": "muna",
+  "MY.lifeStageLarva": "toukka",
+  "MY.lifeStagePupa": "kotelo",
+  "MY.lifeStageJuvenile": "nuori",
+  "MY.lifeStageNymph": "nymfi",
+  "MY.lifeStageSubimago": "subimago",
+  "MY.lifeStageImmature": "keskenkasvuinen",
+  "MY.lifeStageAdult": "aikuinen",
+  "MY.lifeStageFertile": "fertiili",
+  "MY.lifeStageSterile": "steriili",
+  "MY.lifeStageTadpole": "nuijapää",
+  "MY.lifeStageDead": "kuollut",
+  "MY.lifeStageAlive": "elävä",
+  "MY.lifeStageEmbryo": "alkio tai sikiö",
+  "MY.lifeStageSubadult": "esiaikuinen",
+  "MY.lifeStageMature": "sukukypsä",
+  "MY.lifeStagePullus": "poikanen (linnut)",
+  "MY.lifeStageHatchedEgg": "kuoriutunut muna",
+  "MY.lifeStageHatchedPupa": "kuoriutunut kotelo",
+  "MY.lifeStageGall": "äkämä",
+  "MY.lifeStageMarks": "jäljet (syömäjäljet tms.)"
+}

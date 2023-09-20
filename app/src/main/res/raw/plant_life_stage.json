@@ -1,0 +1,15 @@
+{
+  "MY.plantLifeStageSterile": "steriili",
+  "MY.plantLifeStageFertile": "fertiili",
+  "MY.plantLifeStageSeed": "siemen / itiö / hedelmä",
+  "MY.plantLifeStageSprout": "verso",
+  "MY.plantLifeStageBud": "nuppu",
+  "MY.plantLifeStageFlower": "kukka",
+  "MY.plantLifeStageWitheredFlower": "kuihtunut kukka",
+  "MY.plantLifeStageRipeningFruit": "kypsyviä siemeniä / hedelmiä / itiöitä",
+  "MY.plantLifeStageRipeFruit": "kypsiä siemeniä / hedelmiä / itiöitä",
+  "MY.plantLifeStageDeadSprout": "kuollut verso",
+  "MY.plantLifeStageSubterranean": "mukula / sipuli / juuri",
+  "MY.plantLifeStageLivingPlant": "elävä",
+  "MY.plantLifeStageDeadPlant": "kuollut"
+}

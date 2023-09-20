@@ -1,0 +1,13 @@
+{
+  "coordinateSource" : "MY.coordinateSourceGps",
+  "coordinateSystem" : "MY.coordinateSystemWgs84",
+  "geometry" : {
+    "type": "Point",
+    "coordinates": []
+  },
+  "municipality" : "",
+  "locality" : "",
+  "localityDescription" : "",
+  "dateBegin" : "",
+  "units" : []
+}

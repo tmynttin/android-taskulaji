@@ -1,0 +1,5 @@
+{
+  "Public": "MZ.publicityRestrictionsPublic",
+  "Protected": "MZ.publicityRestrictionsProtected",
+  "Private": "MZ.publicityRestrictionsPrivate"
+}

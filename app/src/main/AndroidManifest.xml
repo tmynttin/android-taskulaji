@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tmynttin.taskulaji">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Taskulaji"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DispersionMapActivity"></activity>
+        <activity
+            android:name=".TextActivity"
+            android:label="@string/title_activity_text"
+            android:theme="@style/Theme.Taskulaji.NoActionBar" />
+        <activity
+            android:name=".AudioRecorderActivity"
+            android:label="@string/title_activity_audio_recorder"
+            android:theme="@style/Theme.Taskulaji.NoActionBar" />
+        <activity
+            android:name=".ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TaxonInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UnitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TaxoSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewObservationActivity"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebActivity"
+            android:parentActivityName=".NewsPageActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsPageActivity"
+            android:label="@string/news_page_name"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Taskulaji"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

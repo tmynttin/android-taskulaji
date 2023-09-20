@@ -1,0 +1,55 @@
+[
+  {"enumeration": "HUMAN_OBSERVATION_UNSPECIFIED",
+    "property": "MY.recordBasisHumanObservation",
+    "label": {
+      "fi": "Havaittu",
+      "en": "Observation",
+      "sv": "Observation"
+    }},
+  {
+    "enumeration": "HUMAN_OBSERVATION_PHOTO",
+    "property": "MY.recordBasisHumanObservationPhoto",
+    "label": {
+      "fi": "Valokuvattu",
+      "en": "Photographed",
+      "sv": "Fotograferade"
+    }
+  },
+  {
+    "enumeration": "HUMAN_OBSERVATION_INDIRECT",
+    "property": "MY.recordBasisHumanObservationIndirect",
+    "label": {
+      "fi": "Epäsuora havainto (jäljet, ulosteet, yms)",
+      "en": "Indirect observation (footprints, feces, etc)",
+      "sv": "Indirekt observation (fotspår, avföring, etc)"
+    }
+  },
+  {
+    "enumeration": "HUMAN_OBSERVATION_HANDLED",
+    "property": "MY.recordBasisHumanObservationHandled",
+    "label": {
+      "fi": "Käsitelty (otettu kiinni, ei näytettä)",
+      "en": "Handled (catched, not preserved)",
+      "sv": "Behandlad (fasttagit, inte bevarad)"
+    }
+  },
+
+  {
+    "enumeration": "HUMAN_OBSERVATION_RECORDED_AUDIO",
+    "property": "MY.recordBasisHumanObservationAudio",
+    "label": {
+      "fi": "Äänitetty",
+      "en": "Audio recording",
+      "sv": "Ljudsatt"
+    }
+  },
+  {
+    "enumeration": "PRESERVED_SPECIMEN",
+    "property": "MY.recordBasisPreservedSpecimen",
+    "label": {
+      "fi": "Näyte",
+      "en": "Preserved specimen",
+      "sv": "Prov"
+    }
+  }
+]

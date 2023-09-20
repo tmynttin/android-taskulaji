@@ -1,0 +1,10 @@
+{
+  "recordBasis" : "MY.recordBasisHumanObservation",
+  "identifications" : [],
+  "count" : "",
+  "taxonConfidence" : "MY.taxonConfidenceSure",
+  "notes" : "",
+  "unitFact" : {
+    "autocompleteSelectedTaxonID": ""
+  }
+}

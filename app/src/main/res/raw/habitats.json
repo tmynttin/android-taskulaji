@@ -1,0 +1,504 @@
+[
+    {
+      "id": "MKV.habitatM",
+      "value": "M – Metsät"
+    },
+    {
+      "id": "MKV.habitatMk",
+      "value": "Mk – kangasmetsät",
+      "altParent": "MKV.habitatM"
+    },
+    {
+      "id": "MKV.habitatMkk",
+      "value": "Mkk – kuivahkot ja sitä karummat kankaat",
+      "altParent": "MKV.habitatMk"
+    },
+    {
+      "id": "MKV.habitatMkt",
+      "value": "Mkt – tuoreet ja lehtomaiset kankaat",
+      "altParent": "MKV.habitatMk"
+    },
+    {
+      "id": "MKV.habitatMl",
+      "value": "Ml – lehdot (myös kuusivaltaiset)",
+      "altParent": "MKV.habitatM"
+    },
+    {
+      "id": "MKV.habitatMlt",
+      "value": "Mlt – tuoreet ja kuivat lehdot",
+      "altParent": "MKV.habitatMl"
+    },
+    {
+      "id": "MKV.habitatMlk",
+      "value": "Mlk – kosteat lehdot",
+      "altParent": "MKV.habitatMl"
+    },
+    {
+      "id": "MKV.habitatMt",
+      "value": "Mt – tunturikoivikot (pois lukien tunturikoivulehdot)",
+      "altParent": "MKV.habitatM"
+    },
+    {
+      "id": "MKV.habitatMtl",
+      "value": "Mtl – tunturikoivulehdot",
+      "altParent": "MKV.habitatM"
+    },
+    {
+      "id": "MKV.habitatS",
+      "value": "S – Suot"
+    },
+    {
+      "id": "MKV.habitatSl",
+      "value": "Sl – letot",
+      "altParent": "MKV.habitatS"
+    },
+    {
+      "id": "MKV.habitatSla",
+      "value": "Sla – avoletot",
+      "altParent": "MKV.habitatSl"
+    },
+    {
+      "id": "MKV.habitatSlr",
+      "value": "Slr – lettorämeet",
+      "altParent": "MKV.habitatSl"
+    },
+    {
+      "id": "MKV.habitatSlk",
+      "value": "Slk – lettokorvet",
+      "altParent": "MKV.habitatSl"
+    },
+    {
+      "id": "MKV.habitatSn",
+      "value": "Sn – nevat",
+      "altParent": "MKV.habitatS"
+    },
+    {
+      "id": "MKV.habitatSnk",
+      "value": "Snk – karut nevat",
+      "altParent": "MKV.habitatSn"
+    },
+    {
+      "id": "MKV.habitatSnr",
+      "value": "Snr – rehevät nevat",
+      "altParent": "MKV.habitatSn"
+    },
+    {
+      "id": "MKV.habitatSr",
+      "value": "Sr – rämeet",
+      "altParent": "MKV.habitatS"
+    },
+    {
+      "id": "MKV.habitatSrk",
+      "value": "Srk – karut rämeet",
+      "altParent": "MKV.habitatSr"
+    },
+    {
+      "id": "MKV.habitatSrr",
+      "value": "Srr – rehevät rämeet",
+      "altParent": "MKV.habitatSr"
+    },
+    {
+      "id": "MKV.habitatSk",
+      "value": "Sk – korvet",
+      "altParent": "MKV.habitatS"
+    },
+    {
+      "id": "MKV.habitatSkk",
+      "value": "Skk – karut korvet",
+      "altParent": "MKV.habitatSk"
+    },
+    {
+      "id": "MKV.habitatSkr",
+      "value": "Skr – rehevät korvet",
+      "altParent": "MKV.habitatSk"
+    },
+    {
+      "id": "MKV.habitatV",
+      "value": "V – Vedet"
+    },
+    {
+      "id": "MKV.habitatVi",
+      "value": "Vi – Itämeri",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVik",
+      "value": "Vik – kallio- ja lohkarepohjat",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVim",
+      "value": "Vim – muta- ja liejupohjat",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVis",
+      "value": "Vis – sorapohjat",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVih",
+      "value": "Vih – hiekkapohjat",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVie",
+      "value": "Vie – sekapohjat",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVip",
+      "value": "Vip – pelagiaali",
+      "altParent": "MKV.habitatVi"
+    },
+    {
+      "id": "MKV.habitatVs",
+      "value": "Vs – järvet ja lammet",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVsk",
+      "value": "Vsk – karut järvet ja lammet",
+      "altParent": "MKV.habitatVs"
+    },
+    {
+      "id": "MKV.habitatVsr",
+      "value": "Vsr – rehevät järvet ja lammet",
+      "altParent": "MKV.habitatVs"
+    },
+    {
+      "id": "MKV.habitatVa",
+      "value": "Va – lampareet ja allikot (myös rimmet)",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVj",
+      "value": "Vj – joet",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVp",
+      "value": "Vp – purot ja norot",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVk",
+      "value": "Vk – kosket",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatVl",
+      "value": "Vl – lähteiköt",
+      "altParent": "MKV.habitatV"
+    },
+    {
+      "id": "MKV.habitatR",
+      "value": "R – Rannat"
+    },
+    {
+      "id": "MKV.habitatRi",
+      "value": "Ri – Itämeren rannat",
+      "altParent": "MKV.habitatR"
+    },
+    {
+      "id": "MKV.habitatRim",
+      "value": "Rim – rantametsät",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRimt",
+      "value": "Rimt – tulvametsät",
+      "altParent": "MKV.habitatRim"
+    },
+    {
+      "id": "MKV.habitatRiml",
+      "value": "Riml – metsäluhdat",
+      "altParent": "MKV.habitatRim"
+    },
+    {
+      "id": "MKV.habitatRip",
+      "value": "Rip – rantapensaikot",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRin",
+      "value": "Rin – niittyrannat",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRil",
+      "value": "Ril – luhtarannat",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRir",
+      "value": "Rir – ruovikot",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRis",
+      "value": "Ris – sora-, somerikko- ja kivikkorannat",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRih",
+      "value": "Rih – hietikkorannat",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRit",
+      "value": "Rit – avoimet tulvarannat",
+      "altParent": "MKV.habitatRi"
+    },
+    {
+      "id": "MKV.habitatRj",
+      "value": "Rj – järven- ja joenrannat",
+      "altParent": "MKV.habitatR"
+    },
+    {
+      "id": "MKV.habitatRjm",
+      "value": "Rjm – rantametsät",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjmt",
+      "value": "Rjmt – tulvametsät",
+      "altParent": "MKV.habitatRjm"
+    },
+    {
+      "id": "MKV.habitatRjml",
+      "value": "Rjml – metsäluhdat",
+      "altParent": "MKV.habitatRjm"
+    },
+    {
+      "id": "MKV.habitatRjp",
+      "value": "Rjp – rantapensaikot",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjn",
+      "value": "Rjn – niittyrannat",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjl",
+      "value": "Rjl – luhtarannat",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjr",
+      "value": "Rjr – ruovikot",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjs",
+      "value": "Rjs – sora-, somerikko- ja kivikkorannat",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjh",
+      "value": "Rjh – hietikkorannat",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatRjt",
+      "value": "Rjt – avoimet tulvarannat",
+      "altParent": "MKV.habitatRj"
+    },
+    {
+      "id": "MKV.habitatK",
+      "value": "K – Kalliot ja kivikot"
+    },
+    {
+      "id": "MKV.habitatKk",
+      "value": "Kk - kalkkikalliot ja -louhokset, myös paljas kalkkimaa",
+      "altParent": "MKV.habitatK"
+    },
+    {
+      "id": "MKV.habitatKs",
+      "value": "Ks – serpentiinikalliot ja -maa",
+      "altParent": "MKV.habitatK"
+    },
+    {
+      "id": "MKV.habitatKr",
+      "value": "Kr – kalliorotkot, rotkolaaksot ja kurut",
+      "altParent": "MKV.habitatK"
+    },
+    {
+      "id": "MKV.habitatKl",
+      "value": "Kl – luolat ja halkeamat",
+      "altParent": "MKV.habitatK"
+    },
+    {
+      "id": "MKV.habitatKm",
+      "value": "Km – karut ja keskiravinteiset kalliot",
+      "altParent": "MKV.habitatK"
+    },
+    {
+      "id": "MKV.habitatT",
+      "value": "T – Tunturipaljakat"
+    },
+    {
+      "id": "MKV.habitatTk",
+      "value": "Tk – tunturikankaat",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTn",
+      "value": "Tn – tunturiniityt",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTu",
+      "value": "Tu – lumenviipymät",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTp",
+      "value": "Tp – tunturikangaspensaikot",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTl",
+      "value": "Tl – paljakan kalliot ja kivikot",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTll",
+      "value": "Tll – paljakan karut ja keskiravinteiset kalliot ja kivikot",
+      "altParent": "MKV.habitatTl"
+    },
+    {
+      "id": "MKV.habitatTlk",
+      "value": "Tlk – paljakan kalkkikalliot ja -kivikot",
+      "altParent": "MKV.habitatTl"
+    },
+    {
+      "id": "MKV.habitatTls",
+      "value": "Tls – paljakan serpentiinikalliot ja -kivikot",
+      "altParent": "MKV.habitatTl"
+    },
+    {
+      "id": "MKV.habitatTlr",
+      "value": "Tlr – paljakan kalliorotkot, rotkolaaksot ja kurut",
+      "altParent": "MKV.habitatTl"
+    },
+    {
+      "id": "MKV.habitatTlä",
+      "value": "Tlä – paljakan lähteiköt ja tihkupinnat",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTs",
+      "value": "Ts – paljakan suot",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTj",
+      "value": "Tj – paljakan järvet ja lammet (sis. rannat)",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTv",
+      "value": "Tv - paljakan virtavedet (sis. rannat)",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatTa",
+      "value": "Ta - paljakan lampareet ja allikot",
+      "altParent": "MKV.habitatT"
+    },
+    {
+      "id": "MKV.habitatI",
+      "value": "I – Perinneympäristöt ja muut ihmisen muuttamat ympäristöt"
+    },
+    {
+      "id": "MKV.habitatIn",
+      "value": "In – kuivat niityt, kedot ja nummet",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIt",
+      "value": "It – tuoreet niityt",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIh",
+      "value": "Ih – hakamaat, lehdesniityt ja metsälaitumet",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIk",
+      "value": "Ik – kosteat niityt (muut kuin rantaniityt)",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIo",
+      "value": "Io – ojat ja muut kaivannot",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIv",
+      "value": "Iv – viljelymaat",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIp",
+      "value": "Ip - puistot, pihamaat ja puutarhat",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIu",
+      "value": "Iu – uuselinympäristöt",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatIr",
+      "value": "Ir – rakennukset ja rakenteet",
+      "altParent": "MKV.habitatI"
+    },
+    {
+      "id": "MKV.habitatU",
+      "value": "? – Elinympäristö tuntematon"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeV",
+      "value": "v – vanhat metsät"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeH",
+      "value": "h – harjumetsät"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeP",
+      "value": "p – metsäpaloalueet"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeJ",
+      "value": "j – jalopuuesiintymä"
+    },
+    {
+      "id": "MKV.habitatSpecificTypePAK",
+      "value": "pa – paahteinen"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeVAK",
+      "value": "va – varjoinen"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeRA",
+      "value": "ra – sijaitsee rannalla"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeKA",
+      "value": "ka – karut kalliot/kivikot"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeKE",
+      "value": "ke – keskiravinteiset kalliot/kivikot"
+    },
+    {
+      "id": "MKV.habitatSpecificTypeCA",
+      "value": "ca – kalkkivaikutteinen"
+    }
+]
