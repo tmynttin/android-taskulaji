@@ -38,10 +38,10 @@ import okhttp3.internal.http.HttpMethod;
 
 public class Communication {
     private static final String TAG = "Communication";
-    //public static final String API_URL = "https://apitest.laji.fi/v0/";
-    //public static final String ACCESS_TOKEN = "Q1cVCk7I8sc2PCqIbhMHt1rib2FyZwJF9OhUXmxIIAy6R0bSeKEMWgtq47ecYVYo";
-    public static final String API_URL = "https://api.laji.fi/v0/";
-    public static final String ACCESS_TOKEN = "DFUyMwPOXOBeOrj00dcKGscJqFVgTWsUggikIgU2pPIB9KPjITn94Ly45VOo5C2s";
+    public static final String API_URL = "https://apitest.laji.fi/v0/";
+    public static final String ACCESS_TOKEN = "Q1cVCk7I8sc2PCqIbhMHt1rib2FyZwJF9OhUXmxIIAy6R0bSeKEMWgtq47ecYVYo";
+    //public static final String API_URL = "https://api.laji.fi/v0/";
+    //public static final String ACCESS_TOKEN = "DFUyMwPOXOBeOrj00dcKGscJqFVgTWsUggikIgU2pPIB9KPjITn94Ly45VOo5C2s";
     public static String test;
 
     public static void SendGetRequest(String endPoint, Map<String, String> parameters, RequestListener listener) {
